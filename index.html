@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irys Sayı Tahmin Oyunu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sayı Tahmin Oyunu</h1>
+  <p>1 ile 100 arasında bir sayı tahmin edin!</p>
+  <input type="number" id="guessInput" placeholder="Tahmininizi girin" min="1" max="100">
+  <button onclick="makeGuess()">Tahmin Et</button>
+  <div id="result"></div>
+
+  <!-- CDN ile Kütüphaneleri Ekle -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.7.0/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/@irys/sdk@0.0.3/build/web.bundle.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
